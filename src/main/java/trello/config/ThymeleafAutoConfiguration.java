@@ -1,4 +1,4 @@
-package hello;
+package trello;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -36,8 +36,8 @@ import java.util.LinkedHashMap;
 @EnableConfigurationProperties(ThymeleafProperties.class)
 @ConditionalOnClass({SpringTemplateEngine.class, SpringContextUtils.class})
 @AutoConfigureAfter(WebMvcAutoConfiguration.class)
-public class Thymeleaf3AutoConfiguration {
-    private static final Log logger = LogFactory.getLog(Thymeleaf3AutoConfiguration.class);
+public class ThymeleafAutoConfiguration {
+    private static final Log logger = LogFactory.getLog(ThymeleafAutoConfiguration.class);
 
     @Autowired
     private ThymeleafProperties properties;

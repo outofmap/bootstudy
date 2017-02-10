@@ -1,4 +1,4 @@
-package hello;
+package trello.hello;
 
 import org.springframework.data.repository.CrudRepository;
 

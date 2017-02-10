@@ -1,4 +1,4 @@
-package hello;
+package trello.hello;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,6 +28,7 @@ public class Application {
             repository.save(new Customer("David", "Palmer"));
             repository.save(new Customer("Michelle", "Dessler"));
             repository.save(new Customer("Obama", ".President"));
+            repository.save(new Customer("Hillary", "Clinton"));
 
             // fetch all customers
             log.info("Customers found with findAll():");
